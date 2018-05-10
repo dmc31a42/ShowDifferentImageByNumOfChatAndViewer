@@ -1,5 +1,7 @@
 exports.ChatOptions = {
-    channelName: '#ch0494',
+    channelName: [
+		'#ch0494',
+	],
     "case": [
         {
             "cut": 0,
@@ -10,14 +12,16 @@ exports.ChatOptions = {
             "imagePath": "img/default_1.gif"
         },
         {
-            "cut": 100,
+            "cut": 20,
             "imagePath": "img/default_2.gif"
         },
         {
-            "cut": 1000,
+            "cut": 30,
             "imagePath": "img/default_3.gif"
         },
     ],
-    "checkSec": 120,
-    "LogDeleteIntervalSec": 15*60*1000
+    "ChatRateCheckIntervalSec" : 30,
+    "Below is for System Setting. I'm not recommend to modify": "블라블라",
+    "LogicCheckIntervalSec": 1,    
+    "LogDeleteIntervalSec": 15*60
 };
